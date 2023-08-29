@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const Countdown = ({ targetDate }) => {
+const Countdown = ({ targetDate }: any) => {
   const calculateTimeLeft = () => {
     const now = new Date().getTime();
     const targetTime = new Date(targetDate).getTime();
